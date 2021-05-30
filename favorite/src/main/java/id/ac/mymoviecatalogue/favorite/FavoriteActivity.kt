@@ -57,6 +57,7 @@ class FavoriteActivity : AppCompatActivity() {
             if (favMovies != null) {
                 binding.progbarFav.visibility = View.GONE
                 movieAdapter.setData(favMovies)
+                binding.viewEmpty.root.visibility = if (favMovies.isNotEmpty()) View.GONE else View.VISIBLE
             }
         })
 

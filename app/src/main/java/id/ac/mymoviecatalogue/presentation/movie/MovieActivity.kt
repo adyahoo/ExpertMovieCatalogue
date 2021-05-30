@@ -42,6 +42,7 @@ class MovieActivity : AppCompatActivity() {
                     Status.SUCCESS -> {
                         binding.progbarMovie.visibility = View.GONE
                         movieAdapter.setData(movies.data)
+                        binding.viewEmpty.root.visibility = if (movies.data?.isNotEmpty() == true) View.GONE else View.VISIBLE
                     }
                     Status.ERROR -> {
                         binding.progbarMovie.visibility = View.GONE
