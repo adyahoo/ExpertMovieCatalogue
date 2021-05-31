@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">MovieCatalogue</string>
-    <string name="tab_title_1">Movies</string>
-    <string name="tab_title_2">Favorite Movies</string>
     <string name="data_title">Title</string>
     <string name="data_date">Date</string>
     <string name="data_genre">Genre</string>
@@ -11,9 +9,6 @@
     <string name="data_overview">Overview</string>
     <string name="empty_data">No Data Found</string>
     <string name="film_poster">Film Poster</string>
-    <string name="text_creator">Creator</string>
     <string name="release_date_rv">Release Date: %s</string>
     <string name="favorite_title">Favorite Section</string>
-    <string name="favorite_section">Favorite Section</string>
-    <string name="title_favorite">Favorite</string>
 </resources>
